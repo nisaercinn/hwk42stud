@@ -1,1 +1,59 @@
+STEP A :
+credential.helper=osxkeychain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=Nisanur Ercin
+user.email=nisanurei92@gmail.com
+core.editor=nano
 
+
+STEP B :
+The local .git directory contains the following files and directories:
+HEAD		description	index		logs		packed-refs
+config		hooks		info		objects		refs
+
+
+STEP C:
+[Işık University Software Engineering Department](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+STEP D:
+The .gitignore file contains the following rules:
+*.class
+*.log
+.idea/
+.vscode/
+
+STEP E :
+A new branch named feature-1 was created and checked out with git branch, git checkout and git branch commands.
+
+STEP F
+[feature-1 959bce7] satisfying requirement one
+ 1 file changed, 17 insertions(+)
+ create mode 100644 src/Main.java
+
+STEP G:
+The feature-1 branch was merged into the main branch.
+
+STEP H:
+Two branches named feature-2 and feature-3 were created with git branch command.
+
+STEP I:
+The program was modified to print only odd numbers between the given inputs.
+[feature-2 d07ad41] satisfying requirement change two
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+
+STEP J:
+The program was modified to print only even numbers between the given inputs.
+[feature-3 4a22ccc] satisfying requirement change three
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+
+STEP K:
+A merge conflict occurred because both feature-2 and feature-3 modified the same method.
+The conflict was resolved by keeping the changes from feature-3 branch.
+
+STEP L:
+All branches were pushed to the remote repository.
